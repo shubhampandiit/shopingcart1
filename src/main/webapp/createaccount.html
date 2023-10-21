@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Create Account Page</title>
+
+<style type="text/css">
+body {
+	background-color: black;
+}
+
+form {
+	color: red;
+	font-size: 20px;
+	border: 3px solid yellow;
+	padding-left: 200px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top:30px;
+	margin-left: 200px;
+	margin-right: 200px;
+	
+}
+
+b {
+	font-size: 40px;
+	color: yellow;
+	margin-left: 400px;
+	margin-top: 20px;
+}
+a{
+margin-left: 350px;
+font-size: 25px;
+}
+</style>
+</head>
+<body>
+	<b>Create Account</b>
+	<form action="savedata" method="post">
+
+		Enter Name:<input type="text" name="name"><br> <br>
+		Enter Email:<input type="email" name="email"><br> <br>
+		Enter Password:<input type="password" name="password"><br>
+		<br> Enter Mobile:<input type="number" name="mobilenumber"><br>
+		<br> <input type="radio" name="choice"
+			value="create account as merchant"> Create Account As
+		Merchant <br> <br> <input type="radio" name="choice"
+			value="create account as customer"> Create Account As
+		Customer <br> <br> <input type="radio" name="choice"
+			value="create account as admin"> Create Account As Admin <br>
+		<br> <input type="submit">
+         <a href="mainpage.html">Back</a>
+	</form>
+	
+
+</body>
+</html>

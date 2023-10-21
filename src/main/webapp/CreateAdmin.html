@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	background-color: black;
+	color: yellow;
+}
+
+form {
+	margin: 150px;
+	border: 2px solid red;
+	padding: 30px;
+	margin-left: 350px;
+	font-size: 30px;
+	position: fixed;
+}
+
+#submit {
+	margin-left: 120px;
+	color: red;
+	font-size: 20px;
+}
+
+marquee {
+	color: highlight; margin-left : 360px;
+	font-size: 50px;
+	margin-left: 360px;
+}
+</style>
+</head>
+<body>
+	<form action="saveadmin" method="post">
+		Enter Id:<input type="number" name="id"><br> <br>
+		Enter Email:<input type="email" name="email"><br> <br>
+		Enter password:<input type="password" name="password"><br>
+		<br> <input type="submit" id="submit">
+	</form>
+	<marquee>Create Admin Account</marquee>
+</body>
+</html>
